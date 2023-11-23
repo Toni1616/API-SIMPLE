@@ -1,6 +1,6 @@
 const STATUS = {
-    SUCCESS: "OK",
-    FAILURE: "NO"
+    SUCCESS: true,
+    FAILURE: false
 }
 
 export default STATUS

@@ -4,7 +4,7 @@ const insert = (details) => {
     const newUser = {id: users.length+1,...details}
     users.push(newUser)
 
-    return true
+    return newUser
 }
 
 const get = (userId) => {
