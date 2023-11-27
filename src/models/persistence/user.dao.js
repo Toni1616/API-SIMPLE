@@ -55,7 +55,8 @@ const update = (userID,newDetails) => {
     }
 
     users.splice(userIndex,1, updatedUser)
-    return true
+    return updatedUser
+    // return true
 }
 
 export default {get,getAll,update,remove,insert}
